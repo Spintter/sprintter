@@ -1,10 +1,12 @@
+/* eslint-disable import/prefer-default-export */
 import { Express } from 'express';
-import {RouteHandler} from "../types/slack.router";
+import { RouteHandler } from '../types/slack.router';
 
 
 export class SlackRouter {
-    request: Express.Request;
-    resuult: Express.Response;
-    handler: RouteHandler;
+  request: Express.Request;
 
+  resuult: Express.Response;
+
+  handler: RouteHandler;
 }
